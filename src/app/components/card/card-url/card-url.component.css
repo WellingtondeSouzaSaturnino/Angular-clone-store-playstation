@@ -1,0 +1,27 @@
+.card-url__container{
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+
+}
+.card-url__link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  font-size: 12px;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  height: 40px;
+  padding: 0px 50px;
+}
+
+.card-url__link > a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-url__link > a:hover{
+  color: aqua;
+
+}
